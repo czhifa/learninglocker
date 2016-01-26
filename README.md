@@ -29,3 +29,5 @@ Note that Learning Locker is built upon the [Laravel](http://laravel.com/) PHP f
 
 ### Testing
 You should try to ensure that `./vendor/bin/phpunit` runs without any errors before submitting a pull request.
+
+### Translated by Melody && Jocelyn 
