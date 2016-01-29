@@ -13,20 +13,20 @@ return array(
 	|
 	*/
 
-	"password" => "Passwords must be at least six characters and match the confirmation.",
+	"password" => "암호는 적어도 6 자와 확인 일치해야합니다.",
 
-	"user" => "We can't find a user with that e-mail address.",
+	"user" => "우리는 이메일 주소를 가진 사용자를 찾을 수 없습니다.",
 
-	"token" => "This password reset token is invalid.",
+	"token" => "이 암호 재설정 토큰이 잘못되었습니다.",
 
-	"sent" => "Password reminder sent!",
+	"sent" => "암호 알림이 전송!",
 
-  "reset" => "Your password has been reset",
+  "reset" => "비밀번호가 재설정되었습니다",
 
-  "password_reset" => "Password Reset",
+  "password_reset" => "비밀번호 초기화",
 
-  "password_reset_form" => "To reset your password, complete this form",
+  "password_reset_form" => "비밀번호를 재설정하려면이 양식을 작성",
 
-  "password_reset_sent" => "An email with the password reset has been sent"
+  "password_reset_sent" => "암호 재설정와 이메일이 전송되었습니다"
 
 );

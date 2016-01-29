@@ -7,12 +7,12 @@
 */
 
 return array(
-    'statements' => 'Statements',
-    'generator'  => 'Generator',
-    'filter'	 => 'filter',
-    'explorer'   => 'Explorer',
-    'reporting'  => 'Reporting',
-    'exporting'  => 'Exporting',
-    'analytics'  => 'Analytics',
-    'added'		 => 'Your statement has been added.'
+    'statements' => '문',
+    'generator'  => '발전기',
+    'filter'	 => '필터',
+    'explorer'   => '탐침',
+    'reporting'  => '보고',
+    'exporting'  => '내보내기',
+    'analytics'  => '해석학',
+    'added'		 => '당신의 문이 추가되었습니다.'
 );

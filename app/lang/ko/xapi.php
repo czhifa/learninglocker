@@ -2,13 +2,13 @@
 
 return [
   'scope-descriptions' => [
-    'statements-write' => 'Write any Statement',
-    'statements-read-mine' => 'Read Statements written by "me", that is with an authority matching what the LRS would assign if writing a Statement with the current token.',
-    'statements-read' => 'Read any Statement',
-    'state' => 'Read/Write state data, limited to Activities and Actors associated with the current token to the extent it is possible to determine this relationship.',
-    'define' => 'Define/Redefine Activities and Actors. If storing a Statement when this is not granted, ids will be saved and the LRS may save the original Statement for audit purposes, but should not update its internal representation of any Actors or Activities.',
-    'profile' => 'Read/Write profile data, limited to Activities and Actors associated with the current token to the extent it is possible to determine this relationship.',
-    'all-read' => 'Unrestricted read access',
-    'all' => 'Unrestricted access'
+    'statements-write' => '어떤 명령문을 작성',
+    'statements-read-mine' => '"나"에 의해 쓰여진 문 읽기:즉, 현재의 토큰으로 문을 작성하는 경우에는 국세청 지정 될지 일치하는 권위이다.',
+    'statements-read' => '어떤 말씀을 읽는다',
+    'state' => '상태 데이터를 읽기 / 쓰기:정도로 현재 토큰과 연관된 활동 및 액터 제한 이는이 관계를 결정하는 것이 가능하다.',
+    'define' => '정의/재정의 활동 및 배우. 이 권한이 부여되지 않은 경우 정책을 저장하는 경우,id가 저장되고 LRS는 감사 목적을 위해 원래의 정책을 저장할 수 있지만, 어떤 배우 나 활동의 내부 표현을 업데이트하지 않아야합니다.',
+    'profile' => '읽기/쓰기 프로필 데이터:정도로 현재 토큰과 연관된 활동 및 액터 제한 이는이 관계를 결정하는 것이 가능하다.',
+    'all-read' => '무제한 읽기 액세스',
+    'all' => '무제한 액세스'
   ]
 ];

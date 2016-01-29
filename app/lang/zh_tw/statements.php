@@ -7,12 +7,12 @@
 */
 
 return array(
-    'statements' => 'Statements',
-    'generator'  => 'Generator',
-    'filter'	 => 'filter',
-    'explorer'   => 'Explorer',
-    'reporting'  => 'Reporting',
-    'exporting'  => 'Exporting',
-    'analytics'  => 'Analytics',
-    'added'		 => 'Your statement has been added.'
+    'statements' => '定義',
+    'generator'  => '發生器',
+    'filter'	 => '過濾器',
+    'explorer'   => '瀏覽器',
+    'reporting'  => '報告中',
+    'exporting'  => '導出中',
+    'analytics'  => '分析',
+    'added'		 => '您的定義已添加。'
 );

@@ -2,40 +2,40 @@
 
 return array(
   'errors' => array(
-    'nesting' => 'A SubStatement cannot contain a nested statement.',
+    'nesting' => '在子定義中不能嵌套定義。',
     'score' => array(
-      'scaled' => 'Result: score: scaled must be between 1 and -1.',
-      'max' => 'Result: score: max must be greater than min.',
-      'min' => 'Result: score: min must be less than max.',
-      'raw' => 'Result: score: raw must be between max and min.'
+      'scaled' => '結果: 範圍: 範圍必須在 1 和 -1 之間。',
+      'max' => '結果: 範圍: max 必須大於 min。',
+      'min' => '結果: 範圍: min 必須小於 max。',
+      'raw' => '結果: 範圍: raw 必須在 max 和 min 之間。'
     ),
-    'timestamp' => 'Timestamp needs to be in ISO 8601 format.',
-    'version' => 'The statement has an invalid version.',
+    'timestamp' => '時間戳需要符合ISO8601格式。',
+    'version' => '該定義有個無效的版本。',
     'actor' => array(
-      'one' => 'A statement can only set one actor functional identifier.',
-      'valid' => 'A statement must have a valid actor functional identifier.'
+      'one' => '一個定義只能設定一個人員的行動標示。',
+      'valid' => '一個定義必須有一個有效的人員行動標示。'
     ),
-    'allowed' => '`:value` is not an allowed `:key` in :section',
-    'required' => '`:key` is a required key and is not present in :section',
-    'property' => '`:key` is not a permitted property in :section.',
-    'langMap' => '`:key` is not a valid language map in :section.',
-    'lang' => '`:key` is not a valid language in :section.',
-    'base64' => '`:key` is not a valid string with base64 contents in :section.',
-    'incorrect' => 'The statement doesn\'t exist or is not in the correct format.',
-    'null' => '`:key` in :section contains a NULL value which is not permitted.',
+    'allowed' => '在:section中，`:value`不允許為`:key`',
+    'required' => '在:section中，`:key` 是必須的，并不顯示出來。',
+    'property' => '在:section中，`:key` 不是已認可的屬性。',
+    'langMap' => '在:section中，`:key` 不是有效的語言地圖。',
+    'lang' => '在:section中，`:key` 不是有效的語言。',
+    'base64' => '在:section中，`:key` 不是基於base64的有效字串。',
+    'incorrect' => '該定義不存在，或者格式不正確。',
+    'null' => '在:section中，`:key`的值不允許為NULL。',
     'object' => array(
-      'interactionType' => 'Object: definition: interactionType is not valid.',
-      'invalidProperty' => 'Object: definition: It has an invalid property.',
-      'definition' => 'Object: definition: It needs to be an array with keys id and description.',
-      'extensions' => 'Object: definition: extensions need to be an object.'
+      'interactionType' => '對象: 定義: 作用類型無效。',
+      'invalidProperty' => '對象: 定義: 有一個無效的屬性。',
+      'definition' => '對象: 定義: 應該是一個帶有id和描述的陣列。',
+      'extensions' => '對象: 定義: 演示應該是一個對象。'
     ),
     'group' => array(
-      'groups' => 'A group cannot contain groups.',
-      'limit' => 'The group can only have :limit members.'
+      'groups' => '一個群組中不能包含群組。',
+      'limit' => '一個群組只能有 :limit 個成員。'
     ),
-    'type' => '`:key` is not a valid :type in :section.',
-    'numeric' => '`:key` is not numeric in :section.',
-    'format' => '`:key` is not in the correct format in :section.',
-    'account' => 'An `account` must have a `name` and a `homePage`.'
+    'type' => '在:section中，`:key` 不是有效的類型 :type ',
+    'numeric' => '在:section中，`:key` 不是數字。',
+    'format' => '在:section中，`:key` 格式不正確。',
+    'account' => '一個`賬號`必須有一個名字 `name` 和一個 `首頁`。'
   )
 );

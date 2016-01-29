@@ -2,9 +2,9 @@
 
 return [
   'errors' => [
-    'not_found' => 'Could not find :class with id `:id`'
+    'not_found' => '찾을 수 없습니다 id `:id`와 :class'
   ],
   'info' => [
-    'trace' => '`debug` must be `true` in the App\'s config to get a trace.'
+    'trace' => '앱의 설정에서 `debug`는 `true`해야합니다 추적을 얻을 수 있습니다.'
   ]
 ];

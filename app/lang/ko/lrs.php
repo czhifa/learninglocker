@@ -7,71 +7,71 @@
 */
 
 return array(
-    'add'       => 'Add LRS',
-    'home'		=> 'LRS home',
-    'create'    => 'Create an LRS',
-    'delete_confirm' => 'Are you sure you want to delete this LRS? THERE IS NO UNDO AND YOU WILL LOSE ALL STATEMENTS.',
-    'edit'      => 'Edit an LRS',
-    'new'		=> 'Create new LRS',
-    'verify'    => 'You need to <a href=":verify_link">verify your email</a> before you can create an LRS.',
-    'list'      => 'LRS List',
-    'none'      => 'No LRS\'s available.',
-    'reporting' => 'Reporting',
-    'deleted'   => 'The LRS was deleted',
-    'updated'   => 'The LRS was updated',
-    'create_problem' => 'There was a problem creating that LRS.',
-    'created'   => 'The LRS was created.',
-    'active'    => 'Active',
+    'add'       => 'LRS 추가',
+    'home'		=> 'LRS 홈',
+    'create'    => 'LRS 만들기',
+    'delete_confirm' => '당신은 당신이 LRS를 삭제 하시겠습니까?아무 UNDO이 없으며 당신은 모든 설명을 잃게됩니다.',
+    'edit'      => 'LRS 편집',
+    'new'		=> '새로운 LRS 만들기',
+    'verify'    => '당신이 LRS를 만들 수 있습니다 전에 <a href=":verify_link"이메일을 확인해야합니다</a>',                           
+    'list'      => 'LRS 목록',
+    'none'      => '덜 사용할 수 있습니다.',
+    'reporting' => '보고서입니다',
+    'deleted'   => 'LRS가 삭제되었습니다',
+    'updated'   => 'LRS가 업데이트되었습니다',
+    'create_problem' => '그 LRS를 만드는 문제가 발생했습니다.',
+    'created'   => '국세청 만들었습니다.',
+    'active'    => '유효한',
 
     'sidebar'	=> array(
-    	'dash' 	    => 'Dashboard',
-    	'edit' 	    => 'Edit LRS details',
-    	'endpoint'  => 'Manage clients',
+    	'dash' 	    => '계기반',
+    	'edit' 	    => 'LRS 세부 사항을 편집',
+    	'endpoint'  => '고객 관리',
     	'api'	    => 'LRS API',
-    	'users'     => 'Manage users',
-    	'analytics' => 'Analytics',
-    	'reporting' => 'Reporting',
-      'exporting' => 'Exporting'
+    	'users'     => '사용자 관리',
+    	'analytics' => '해석학',
+    	'reporting' => '보고서입니다',
+      'exporting' => '내보내기'
     ),
 
     'endpoint' 	=> array(
-    	'endpoint'       => 'Endpoint',
-    	'basic_http'     => 'Basic HTTP Authentication',
-    	'submit'         => 'Accept xAPI Statements',
-    	'instructions'   => 'In order to accept xAPI statements you will need to submit to the following endpoint and authenticate.',
-    	'new_key_secret' => 'Generate new key and secret'
+    	'endpoint'       => '엔드 포인트',
+    	'basic_http'     => '기본 HTTP 인증',
+    	'submit'         => 'xAPI 문을 수락',
+    	'instructions'   => 'xAPI 문을 수용하기 위해 다음과 같은 엔드 포인트에 입력하고 인증해야합니다.',
+    	'new_key_secret' => '새로운 키와 비밀을 생성'
     ),
 
     'api'       => array(
     	'oauth'    => 'OAuth 2.0',
-    	'settings' => 'API Settings',
+    	'settings' => 'API 설정',
     	'api'	   => 'LRS API'
     ),
     
 	'client'       => array(
-    	'manageclients'   => 'Clients',
-    	'manageclients_intro'   => 'Create a new client for each application or user accessing the LRS via xAPI.',
-    	'new_client'   => 'Create client',
-    	'unnamed_client' => 'Unnamed client',
-    	'created_fail' => 'The client was not created sucecssfully. Sorry.',
-    	'created_sucecss' => 'The client was created sucecssfully. Hurrah!',
-    	'updated'   => 'The client was updated',
-    	'none' => 'Yes, we have no clients.',
-    	'delete_client_success' => 'Client deleted.',
-    	'delete_client_error' => 'Oops. Something went wrong. The client has not been deleted.',
+    	'manageclients'   => '클라이언트',
+    	'manageclients_intro'   => 'xAPI를 통해 LRS에 액세스하는 각 응용 프로그램이나 사용자에 대한 새 클라이언트를 만듭니다.',
+    	'new_client'   => '클라이언트 만들기',
+    	'unnamed_client' => '이름이없는고객',
+    	'created_fail' => '클라이언트가 성공적으로 작성되지 않았습니다. 죄송합니다.',
+    	'created_sucecss' => '클라이언트가 성공적으로 만들어졌습니다. 만세!',
+    	'updated'   => '클라이언트가 업데이트되었습니다.',
+    	'none' => '예, 우리는 어떤 고객이 없습니다.',
+    	'delete_client_success' => '클라이언트가 삭제되었습니다.',
+    	'delete_client_error' => '죄송합니다. 문제가 발생했습니다. 클라이언트는 삭제되지 않았습니다.',
     	'authority' => array(
-			'ifi' => 'Identifier',
-			'mbox' => 'Email',
-			'mbox_sha1sum' => 'Encrypted email',
-			'openid' => 'Open id',
-			'account' => 'Account',
-			'accountname' => 'Account Name',
-			'accounthomepage' => 'Account Homepage'
+			'ifi' => '식별자',
+			'mbox' => '이메일',
+			'mbox_sha1sum' => '암호화 된 이메일l',
+			'openid' => '오픈 아이디',
+			'account' => '계정',
+			'accountname' => '계정 이름',
+			'accounthomepage' => '계정 홈페이지'
 		)
     	
     ),
 
-    'update_key'       => 'Your key has now been updated.',
-    'update_key_error' => 'There was an error updating your key and secret.',
-    'remove_user'      => 'That user has been removed from this LRS.'
+    'update_key'       => '당신의 키가 업데이트되었습니다.',
+    'update_key_error' => '키와 비밀을 업데이트하는 중에 오류가 발생했습니다.',
+    'remove_user'      => '즉, 사용자는이 LRS에서 제거되었습니다.'
 );
